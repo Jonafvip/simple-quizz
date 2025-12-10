@@ -1,0 +1,55 @@
+/* Header con efecto Cartoon */
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 3px solid #000000;
+  box-shadow: 0 4px 0 #000000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px;
+  background-color: #ffe066;
+  padding: 5px 15px;
+  border: 3px solid black;
+  border-radius: 50px;
+  box-shadow: 3px 3px 0 black;
+  transition: transform 0.1s;
+}
+
+.logo-container:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 black;
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+}
+
+.logo-text {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Responsive adjust */
+@media (max-width: 600px) {
+  .navbar-custom {
+    padding: 15px 20px;
+    justify-content: center;
+    box-shadow: 0 2px 0 #000000;
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "respuesta": "Amazonas",
+    "opciones": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "imagen": "https://supercurioso.com/wp-content/uploads/2015/05/Diseno-sin-titulo-6.jpg"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Quién pintó la famosa obra 'La Mona Lisa'?",
+    "respuesta": "Leonardo da Vinci",
+    "opciones": [
+      "Michelangelo",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ],
+    "imagen": "https://cdn.britannica.com/87/2087-050-8B2A01CD/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál es el planeta más grande de nuestro Sistema Solar?",
+    "respuesta": "Jupiter",
+    "opciones": ["Jupiter", "Neptuno", "Urano", "Saturno"],
+    "imagen": "https://www.shutterstock.com/image-vector/planet-solar-system-watercolor-illustration-260nw-2602312341.jpg"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Quién es el autor de la novela 'Cien años de soledad'?",
+    "respuesta": "Gabriel García Márquez",
+    "opciones": [
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "Julio Cortázar",
+      "Mario Vargas Llosa"
+    ],
+    "imagen": "https://diariovanguardia.com.py/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-13-at-17.20.25.jpeg"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "respuesta": "Au",
+    "opciones": ["Fe", "Cu", "Au", "Ag"],
+    "imagen": "https://www.cementl.com/wp-content/uploads/2025/04/Introduction-to-Gold-Ores-1024x515.jpg"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿En qué año se produjo la caída del Muro de Berlín?",
+    "respuesta": "1989",
+    "opciones": ["1985", "1989", "1990", "1991"],
+    "imagen": "https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2019/08/13/2%20la%20costruzione%20del%20muro%20di%20Berlino%2013%20%20agosto%201961.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es el país con mayor población del mundo actualmente?",
+    "respuesta": "India",
+    "opciones": ["Estados Unidos", "China", "Indonesia", "India"],
+    "imagen": "https://turismo.org/wp-content/uploads/2010/06/India-turismo-que-visitar.jpg"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿En la mitología griega, ¿quién es el héroe principal de la epopeya 'La Odisea?",
+    "respuesta": "Odiseo",
+    "opciones": ["Hércules", "Aquiles", "Odiseo", "Perseo"],
+    "imagen": "https://www.lavanguardia.com/files/image_449_220/uploads/2024/02/27/65ddb157c5430.jpeg"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué órgano del cuerpo humano es el encargado de bombear la sangre?",
+    "respuesta": "Corazón",
+    "opciones": ["Corazón", "Hígado", "Riñones", "Pulmones"],
+    "imagen": "https://thumbs.dreamstime.com/b/conjunto-de-%C3%B3rganos-humanos-dibujos-animados-con-h%C3%ADgado-coraz%C3%B3n-est%C3%B3mago-cerebro-ri%C3%B1ones-pulmones-intestinos-bazo-sistema-213345534.jpg"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál de las siguientes es una de las Siete Maravillas del Mundo Antiguo?",
+    "respuesta": "El Faro de Alejandría",
+    "opciones": [
+      "La Gran Muralla China",
+      "El Coliseo de Roma",
+      "Machu Picchu",
+      "El Faro de Alejandría"
+    ],
+    "imagen": "https://i0.wp.com/www.exoticca.com/wp-content/uploads/2021/08/7_maravillas_del_mundo-antiguo_2.jpg?fit=930%2C402&ssl=1"
+  }
+]

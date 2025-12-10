@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap");
+
+/* Fondo divertido */
+.menu-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd43b; /* Amarillo vibrante */
+  background-image: radial-gradient(#fab005 15%, transparent 16%),
+    radial-gradient(#fab005 15%, transparent 16%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  padding: 80px 20px 20px;
+  font-family: "Fredoka", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Tarjeta principal con borde grueso y sombra dura */
+.menu-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0px #000000;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Animación Pop */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #dfe6e9;
+  letter-spacing: 1px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #2d3436;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: 700;
+  background-color: #74c0fc;
+  display: inline-block;
+  padding: 5px 15px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px #000000;
+}
+
+h2::after {
+  display: none;
+}
+
+/* Grid de reglas */
+.rules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.rule-item {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  border: 3px solid #000000;
+  transition: transform 0.2s;
+  box-shadow: 5px 5px 0px #000000;
+}
+
+.rule-item:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0px #000000;
+}
+
+.rule-item:nth-child(1) {
+  background-color: #ff8787;
+} /* Rojo pastel */
+.rule-item:nth-child(2) {
+  background-color: #63e6be;
+} /* Verde pastel */
+.rule-item:nth-child(3) {
+  background-color: #ffd43b;
+} /* Amarillo pastel */
+.rule-item:nth-child(4) {
+  background-color: #b197fc;
+} /* Violeta pastel */
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.rule-label {
+  display: block;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.rule-value {
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Mensaje de nota */
+.note {
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 25px;
+  font-weight: 600;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #000000;
+}
+
+/* Botón personalizado */
+.start-btn-custom {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #63e6be;
+  color: #000000;
+  border: 4px solid #000000;
+  box-shadow: 6px 6px 0px #000000;
+  transition: all 0.1s ease;
+  text-transform: uppercase;
+}
+
+.start-btn-custom:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 4px 4px 0px #000000;
+  background-color: #38d9a9;
+}
+
+.start-btn-custom:active {
+  transform: translate(6px, 6px);
+  box-shadow: 0px 0px 0px #000000;
+}
